@@ -1,3 +1,4 @@
+#
 def is_valid_list(data):
     differences = list(map(lambda x, y: abs(x - y), data[:-1], data[1:]))
     return len(differences) == len(set(differences))

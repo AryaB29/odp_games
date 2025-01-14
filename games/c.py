@@ -1,4 +1,4 @@
-
+#
 def c():
         n = int(input("Masukan Nilai Awalnya : "))
         if True:
